@@ -1,0 +1,522 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+body{
+  background-color: black;
+}
+
+/* image editing */
+#hero1 {
+  float: right;
+}
+
+/* image editing */
+
+/* navbar start */
+#navbar {
+  height: 30px;
+  width: 1000px;
+  position:absolute;
+  display: flex;
+  text-decoration: none;
+}
+
+h2 {
+  text-decoration: none;
+  border: none;
+  list-style: none;
+}
+
+#navbar h2 {
+ display: flex;
+  color: rgb(203, 139, 0);
+  margin: 13px 80px;
+  text-decoration: none;
+  border: none;
+  font-weight: bolder;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Berkshire Swash', cursive;
+
+}
+#navbar h2:hover{
+  color: #fff;
+}
+
+#navbar ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  position: absolute;
+  margin: 3px 500px;
+
+}
+
+#navbar ul li {
+  padding: 2px 10px;
+  text-decoration: none;
+  margin: 30px 30px;
+}
+
+#navbar ul li a {
+  margin: 10px 10px;
+  text-decoration: none;
+  color: white;
+}
+#navbar ul li:hover a {
+  border-bottom: 1px solid rgb(241, 165, 60);
+  color:  rgb(227, 158, 9);
+}
+
+/* navbar start */
+
+/* content start  */
+.content{
+  padding: 250px 100px;
+  font-size: 30px;
+}
+
+.content h1{ 
+  font-weight: lighter;
+  color: rgb(232, 161, 7);
+}
+.content p{
+  color: rgb(231, 230, 230);
+  font-size: 14px;
+  padding: 30px 2px;
+ margin: 5px 10px;
+ font-family: 'Marcellus', serif;
+
+}
+.content #h-1{
+  margin: auto;
+
+}
+.content button{
+  height: 40px;
+  width: 140px;
+color: white;
+font-family: 'Marcellus', serif;
+background-color: rgb(227, 158, 9);
+background: transparent;
+border: 2px solid white;
+left: 0px;
+margin: 15px 0;
+}
+#b1{
+  margin: 0 35px;
+}
+.content button:hover{
+  background-color:  rgb(232, 161, 7);
+  color: rgb(24, 19, 19);
+}
+/* content end  */
+                   /* second part */
+
+.element{
+  position: absolute;
+  left: 100px; 
+  width: 1050px;
+  background-color: rgb(255, 255, 255);  
+  height: 420px;
+}
+.h-primary{
+  float: right;
+  color: rgb(17, 18, 18);
+  margin: 50px 50px;
+}
+#discover{
+  font-family: 'Combo', cursive;
+  margin: 10px 0px;
+  font-size: 28px;
+color: rgb(237, 153, 18);
+
+}
+#ourstory{
+  margin: 19px 0;
+  font-size: 45px;
+
+}
+.p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: rgb(83, 82, 82);
+}
+.p #p1{
+  margin: 30px 0;
+font-size: 15px;
+  
+}
+
+.p #p3{
+  margin: 16px 0;
+  color:rgb(237, 153, 18);
+  cursor: pointer;
+  font-size: 18px;
+  }
+#image{
+  
+  background-position: center;
+  float: right;
+  margin: -90px -50px;
+}  
+                    /* second part */
+
+                    /* third part/ */
+.h-secondary{
+  
+  padding: 550px 280px;
+
+}
+#right{
+  float: left;
+}
+#right h4{
+  font-family: 'Combo', cursive;
+  margin: -10px 70px;
+  font-size: 30px;
+color: rgb(237, 153, 18);
+
+}
+#right h1{
+  color: white;
+  font-size: 40px;
+  margin: 19px -49px;
+
+}
+
+#left p{
+float: right;
+color: whitesmoke;
+font-family:  sans-serif;
+font-size: 15px;
+}
+                   /* third part/ */
+                   
+                   /* fourth part */
+.h-quaternary{
+  margin: -420px 50px;
+  cursor: pointer;
+  
+}
+#element2{
+  margin:25px 150px;
+
+  float: right;
+  position: absolute;
+
+  top:1500px;
+  right: 0;
+}
+#element2 h2{
+  font-family: 'Combo', cursive;
+font-size: 35px;
+color: rgb(237, 153, 18);
+
+}
+#element2 p{
+  font-family:  sans-serif;
+  margin: 25px 0;
+  color: whitesmoke;
+}
+                 /* fourth part */
+
+                 /* fifth part */
+
+.h-quaternary1{
+  float: right;
+  margin: 270px 80px;
+  cursor: pointer;
+}
+
+#element3{
+  margin: 190px 150px;
+  float: left;
+}
+#element3 h3{
+  font-family: 'Combo', cursive;
+font-size: 35px;
+color: rgb(237, 153, 18);
+
+}
+#element3 p{
+  font-family:  sans-serif;
+  color:#fff;
+  margin: 25px 0;
+}
+                  /* fifth part */
+
+                  /* sixth part */
+.h-quat2{
+  cursor: pointer;
+position: absolute;
+top: 2130px;
+margin: -80px 178px;
+
+}
+#element4{
+  margin:50px 130px;
+  float: right;
+}
+#element4 h3{
+  font-family: 'Combo', cursive;
+font-size: 35px;
+color: rgb(237, 153, 18);
+
+}
+#element4 p{
+  font-family:  sans-serif;
+  margin: 25px 0;
+  color: whitesmoke;
+}
+.h-quat3{
+  float: right;
+  margin: -150px 10px;
+  cursor: pointer;
+
+
+}
+#element5{
+  color: #fff;
+  margin: 160px 0;
+  float: left;
+}
+#element5 h3{
+  font-family: 'Combo', cursive;
+  font-size: 35px;
+  color: rgb(237, 153, 18);
+
+}
+#element5 p{
+  margin: 20px 0;
+  
+
+}
+
+
+
+                   /* sixth part */
+
+                   /* seventh part */
+.main-1{
+color: rgb(18, 21, 21);
+position: absolute;
+margin: 280px -50px;
+height: 300px;
+width: 1000px;
+background-color: rgb(255, 255, 255);
+
+}
+#cupcake{
+  float:right;
+  margin: 0 50px;
+}
+#cupcake h4{
+  font-family: 'Combo', cursive;
+  margin: 25px 19px;
+  font-size: 28px;
+color: rgb(237, 153, 18);
+
+
+}
+#cupcake h1{
+  font-size: 30px;
+
+}
+#cupcake p{
+  font-family:  sans-serif;
+  font-size: 13px;
+  margin: 15px 0;
+  color: rgb(18, 15, 15);
+  font-weight: bold;
+}  
+
+#cupcake h5{
+  position: absolute;
+  left: 850px;
+  color: rgb(237, 153, 18);
+  font-size: 15px;
+
+}
+ #flex{
+  display: flex;
+  float: right;
+  margin: 20px 0px;
+  font-size: 20px;
+  
+  }
+#flex p{
+  margin-left: 15px;
+  border-right: 2px solid rgb(237, 153, 18) ;
+  padding: 8px;
+  font-weight: bold;
+} 
+#cupcake h3{
+  margin: 100px 0;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: rgb(237,153,18);
+ 
+} 
+#image1{
+  position: absolute;
+  right: 0px;
+  bottom: 195px;
+}
+
+                  /* seventh part */
+                   /* eigth part */
+.main-2{
+  color: #fff;
+  margin: 650px 0;
+  text-align: center;
+}
+.main-2 h4{
+  font-family: 'Combo', cursive;
+  margin: 25px 5px;
+  font-size: 28px;
+color: rgb(237, 153, 18);
+
+
+}
+.main-2 h1{
+  font-size: 35px;
+
+}
+.main-2 p{
+margin: 19px 0;
+color: rgb(180, 180, 180);
+font-family: sans-serif;
+font-size: 15px;
+}
+#cafe{
+  margin: -600px -90px;
+}
+
+                   /* eigth part */
+
+                   /* part nine  */
+.main-3{
+  margin: 600px 0px;
+  color:rgb(237, 153, 18) ;
+  
+}
+ #spoon1{
+  margin: 30px 130px;
+} 
+.day{
+  display: flex;
+  margin: -80px 50px;
+}
+.day h1{
+  font-size: 39px;
+  align-items: center;
+  padding: 0px 200px;
+  color: #fff;
+  position: absolute;
+  margin:  0px;
+  
+}  
+#open{
+  text-align: center;
+  margin: -30px 70px;
+}
+
+#day{
+  font-family: 'Combo', cursive;
+  font-size: 22px;
+  
+ 
+}
+#time{
+ 
+ font-size: 22px;
+ position: absolute;
+ right: 0px;
+ 
+ font-family: 'Combo', cursive;
+  /* position: absolute; */
+} 
+ 
+              
+                   /* part nine  */
+
+footer{
+  position: absolute;
+
+}                   /* footer part */
+.footer{
+  height: 200px;
+  width: 1250px;
+  background-color: rgb(58, 38, 31);
+  color: white;
+  display: flex;
+  margin: -400px -150px;
+  padding:50px 85px;
+  font-family: sans-serif;
+  cursor: pointer;
+} 
+.footer:hover {
+  color: rgb(237, 153, 18);
+}
+#f1{
+  margin: 0 30px;
+}
+#f1 h3{
+ font-size:28px ;
+} 
+
+#f1 ul{
+  margin: 19px 0;
+  color: rgb(188, 188, 188);
+} 
+#f2{
+  margin: 0px 90px;
+} 
+#f2 h3{
+  font-size:28px ;
+}
+#f2 ul{
+  margin: 19px 0;
+  color: rgb(188, 188, 188);
+} 
+
+#f3{
+  margin: 0px 30px;
+} 
+#f3 h3{
+  font-size:28px ;
+} 
+#f3 ul{
+  margin: 19px 0;
+  color: rgb(188, 188, 188);
+}  
+#f4{
+  margin: 0px 50px;
+} 
+#f4 h2{
+  font-size:28px ;
+}
+#f4 p{
+  margin: 19px 0;
+  color: rgb(188, 188, 188);
+}                 
+                    /* footer part */
+#copy{
+  background-color: rgb(37, 25, 14);
+  height: 70px;
+  width: 1250px;
+  margin: -180px -150px;
+  text-align: center;
+}  
+#copy p{
+  padding: 25px 0;
+  color: antiquewhite;
+} 
+#icon{
+  padding: 5px 0px;
+  cursor: pointer;
+}                 
