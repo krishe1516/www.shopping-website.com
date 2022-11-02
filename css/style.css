@@ -32,7 +32,7 @@ h2 {
 #navbar h2 {
  display: flex;
   color: rgb(203, 139, 0);
-  margin: 13px 80px;
+  margin: 15px 80px;
   text-decoration: none;
   border: none;
   font-weight: bolder;
@@ -74,16 +74,16 @@ h2 {
 /* navbar start */
 
 /* content start  */
-.content{
+#content{
   padding: 250px 100px;
   font-size: 30px;
 }
 
-.content h1{ 
+#content h1{ 
   font-weight: lighter;
   color: rgb(232, 161, 7);
 }
-.content p{
+#content p{
   color: rgb(231, 230, 230);
   font-size: 14px;
   padding: 30px 2px;
@@ -91,11 +91,11 @@ h2 {
  font-family: 'Marcellus', serif;
 
 }
-.content #h-1{
+#content #h-1{
   margin: auto;
 
 }
-.content button{
+#content button{
   height: 40px;
   width: 140px;
 color: white;
@@ -109,14 +109,14 @@ margin: 15px 0;
 #b1{
   margin: 0 35px;
 }
-.content button:hover{
+#content button:hover{
   background-color:  rgb(232, 161, 7);
   color: rgb(24, 19, 19);
 }
 /* content end  */
                    /* second part */
 
-.element{
+#element{
   position: absolute;
   left: 100px; 
   width: 1050px;
@@ -197,13 +197,13 @@ font-size: 15px;
                    /* third part/ */
                    
                    /* fourth part */
-.h-quaternary{
-  margin: -420px 50px;
+#h-quaternary{
+  margin: -400px 150px;
   cursor: pointer;
   
 }
 #element2{
-  margin:25px 150px;
+  margin:25px 170px;
 
   float: right;
   position: absolute;
@@ -228,7 +228,7 @@ color: rgb(237, 153, 18);
 
 .h-quaternary1{
   float: right;
-  margin: 270px 80px;
+  margin: 250px 80px;
   cursor: pointer;
 }
 
@@ -254,11 +254,11 @@ color: rgb(237, 153, 18);
   cursor: pointer;
 position: absolute;
 top: 2130px;
-margin: -80px 178px;
+margin: 10px 120px;
 
 }
 #element4{
-  margin:50px 130px;
+  margin:50px 150px;
   float: right;
 }
 #element4 h3{
@@ -274,7 +274,7 @@ color: rgb(237, 153, 18);
 }
 .h-quat3{
   float: right;
-  margin: -150px 10px;
+  margin: -130px 30px;
   cursor: pointer;
 
 
@@ -301,10 +301,10 @@ color: rgb(237, 153, 18);
                    /* sixth part */
 
                    /* seventh part */
-.main-1{
+#main-1{
 color: rgb(18, 21, 21);
 position: absolute;
-margin: 280px -50px;
+margin: 290px 0px;
 height: 300px;
 width: 1000px;
 background-color: rgb(255, 255, 255);
@@ -393,7 +393,7 @@ font-family: sans-serif;
 font-size: 15px;
 }
 #cafe{
-  margin: -600px -90px;
+  margin: -600px -45px;
 }
 
                    /* eigth part */
@@ -401,33 +401,35 @@ font-size: 15px;
                    /* part nine  */
 .main-3{
   margin: 600px 0px;
-  color:rgb(237, 153, 18) ;
+  color:rgb(252, 247, 239) ;
+
   
 }
  #spoon1{
-  margin: 30px 130px;
+  padding: 100px 50px;
 } 
 .day{
   display: flex;
-  margin: -80px 50px;
+  margin: -600px 0px;
 }
 .day h1{
   font-size: 39px;
   align-items: center;
   padding: 0px 200px;
-  color: #fff;
+  color: rgb(213, 134, 14);
   position: absolute;
   margin:  0px;
   
 }  
 #open{
   text-align: center;
-  margin: -30px 70px;
+  margin: -70px 140px;
 }
 
 #day{
   font-family: 'Combo', cursive;
   font-size: 22px;
+  margin: 0px 90px;
   
  
 }
@@ -435,7 +437,7 @@ font-size: 15px;
  
  font-size: 22px;
  position: absolute;
- right: 0px;
+ right: 90px;
  
  font-family: 'Combo', cursive;
   /* position: absolute; */
@@ -448,18 +450,18 @@ footer{
   position: absolute;
 
 }                   /* footer part */
-.footer{
+#footer{
   height: 200px;
-  width: 1250px;
+  width: 1120px;
   background-color: rgb(58, 38, 31);
   color: white;
   display: flex;
-  margin: -400px -150px;
+  margin: 150px -150px;
   padding:50px 85px;
   font-family: sans-serif;
   cursor: pointer;
 } 
-.footer:hover {
+#footer:hover {
   color: rgb(237, 153, 18);
 }
 #f1{
@@ -505,15 +507,16 @@ footer{
   color: rgb(188, 188, 188);
 }                 
                     /* footer part */
-#copy{
+#copyright{
   background-color: rgb(37, 25, 14);
   height: 70px;
-  width: 1250px;
-  margin: -180px -150px;
+  width: 1300px;
+  margin: 1050px -150px;
   text-align: center;
+  
 }  
-#copy p{
-  padding: 25px 0;
+#copyright p{
+  padding: 5px ;
   color: antiquewhite;
 } 
 #icon{
